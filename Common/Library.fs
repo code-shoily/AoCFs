@@ -9,4 +9,7 @@ module InputReader =
     
     let readInputFile directory day =
         day |> getInputFileName directory |> File.ReadAllText
+
+module Formatter =
+    let output data = $"%A{data}"
         
