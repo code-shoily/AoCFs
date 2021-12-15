@@ -1,3 +1,6 @@
+// Advent of Code 2021
+// --- Day 1: Sonar Sweep ---
+// Link: https://adventofcode.com/2021/day/1
 module Year2021.Day1
 
 let parse (data: string) = data.Split "\n" |> Seq.map int
